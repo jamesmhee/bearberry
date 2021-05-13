@@ -1,7 +1,7 @@
 body{
-    background: linear-gradient(-45deg, #661800, #e46495, #0790c2, #059e7a);
-    background-size: 400% 400%;
-    animation: gradient 17s ease infinite;
+    background: linear-gradient(-45deg, #ff0022, #6c34ac, #155775, #ae58ff);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -180,6 +180,18 @@ hr {
     height: 100%;
   }
 
+  .borderround-2{
+    background-color: rgba(255, 255, 255, .4);
+    color: black;
+    border:solid 4px rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 10px;
+    height: 100%;
+    margin-right: 30px;
+    padding:10px;
+  }
+
   .roadmap:before {
     content: '';
     position:absolute;
@@ -328,3 +340,17 @@ hr {
   
     
   }
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }  
